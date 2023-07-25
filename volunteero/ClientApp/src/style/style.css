@@ -1,0 +1,288 @@
+/* Colors */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #1b998b;
+  --secondary-color: #ffd393;
+  --text-color: #333333;
+}
+
+/* Typography */
+body {
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--text-color);
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+}
+h2 {
+    font-family: 'Cairo', sans-serif;
+}
+h3 {
+    font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+/* Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    border: blue;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #185e54;
+}
+.heading {
+    color: #2b6777;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+.btn-secondary:hover {
+  background-color: #e7b58f;
+  color: var(--text-color);
+}
+
+/* Forms */
+form label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+
+/* Home Page */
+.hero {
+  height: 500px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.container, .lc-block {
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Login Page */
+.login-form {
+  max-width: 400px;
+}
+
+/* Registration Page */
+
+
+
+
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #2b6777;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #2b6777 0%, #2b6777 50%, #52ab98 100%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #2b6777 0%, #2b6777 50%, #52ab98 100%);
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top : 100px;
+    margin-bottom : 30px;
+}
+
+.logo-containerlogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+
+/* style.css */
+
+/* Add box effect to the login container */
+.login-container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Add gradient to the right side */
+.gradient-custom-2 {
+    background-color: #dd4b39;
+    background-image: linear-gradient(315deg, #dd4b39 0%, #cs35648 74%);
+}
+
+/* Style the logo container */
+.logo-containerlogin {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+    .logo-containerlogin img {
+        width: 200px;
+        margin-bottom: 40px;
+    }
+
+/* Style the form inputs and labels */
+.login-form .form-outline {
+    position: relative;
+    margin-bottom : 20px;
+}
+
+    .login-form .form-outline input {
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid #ced4da;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        margin-top: 4px;
+    }
+
+    .login-form .form-outline label {
+        position: absolute;
+        top: -30%;
+
+    }
+    
+    .login-form .form-outline input:focus + label {
+        color: #dc3545;
+
+    }
+
+/* Style the login and forgot password buttons */
+.login-form .btn-outline-danger {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.different {
+    position: absolute;
+    top: -75%;
+}
+.login-form .text-muted {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Style the "Create new" button */
+.login-form .btn-outline-danger:last-child {
+    width: auto;
+}
+
+/* Add some spacing for the "Don't have an account?" text */
+.login-form .d-flex {
+    margin-top: 20px;
+}
+
+.cool-link {
+    color: #2b6777;
+    text-decoration: solid;
+    position: relative;
+    transition: color 0.3s;
+}
+
+    .cool-link::before {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--primary-color);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.3s;
+    }
+
+    .cool-link:hover {
+        color: #2b6777;
+    }
+
+        .cool-link:hover::before {
+            transform: scaleX(1);
+        }
+
+
+newtitle{
+
+
+
+}

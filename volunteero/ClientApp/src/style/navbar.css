@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+navbar-brand {
+  letter-spacing: 3px;
+  color: #c24244;
+}
+
+.navbar {
+    font-family: 'Cairo', sans-serif;
+    font-size :16px;
+}
+
+.navbar-brand:hover {
+  color: #e92907;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars {
+  color: #000000;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars {
+  color: #030303;
+
+}
+
+.navbar-scrolled {
+  background-color: #ffede7;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 100%;
+  text-align: center;
+
+}
+
+.btn-hover {
+  width: 120px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #050404;
+  cursor: pointer;
+
+  height: 40px;
+  text-align: center;
+  border: none;
+  background-size: 100% 100%;
+
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover.color-8 {
+  background-image: linear-gradient(
+    to right,
+    #e94b1f,
+    #e54b21,
+    #ef3110,
+    #eb3414
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hover.color-9 {
+  background-image: linear-gradient(
+    to right,
+    #1face9,
+    #21b7e5,
+    #10b3ef,
+    #14b9eb
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.logo-shift {
+    display: flex;
+    margin-bottom: 3px;
+    
+    justify-content: center;
+    justify-items: center;
+    padding-right:80px;
+}
+

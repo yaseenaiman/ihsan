@@ -1,0 +1,24 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+.card1 {
+    max-height: 500px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    font-family: 'Cairo', sans-serif;
+}
+
+    .card1.expanded {
+        max-height: none;
+    }
+
+.card1-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Cairo', sans-serif;
+}
+
+    .card1-text.expanded-text {
+        white-space: normal;
+        font-family: 'Cairo', sans-serif;
+    }
